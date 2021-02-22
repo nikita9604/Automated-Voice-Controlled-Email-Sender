@@ -48,21 +48,12 @@ def send_email(receiver, subject, message):
     email.set_content(message)
     server.send_message(email)
 
-#This is sending direct mail (without voice command) to a person
-'''
-def send_email():
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.starttls()
-    server.login('from_which_email_to_send@gmail.com', 'password')
-    server.sendmail('from_which_email_to_send@gmail.com', 'to_which_email_to_receive@gmail.com', 'Hello mam, Hope you are having a good day today')
-'''
-
 #Dictionary of Emails
 email_list = {
-    'mama': 'mamtarath01@gmail.com',
-    'nikita': 'nikitar.study@gmail.com',
-    'arpit': 'arpitrath00@gmail.com',
-    'dream': 'engineeringmyway@gmail.com'
+    'harry': 'thisisharry@gmail.com',
+    'nikita': 'nikita.me@gmail.com',
+    'james': 'jamesbond@gmail.com',
+    'doremon': 'doracake@gmail.com'
 }
 
 #Get Email info through voice commands

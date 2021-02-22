@@ -14,7 +14,7 @@ No need to type mails anymore. Send unlimited emails automatically using STMP Pr
   1. ```pip install SpeechRecognition```
   2. ```pip install PyAudio```
   
-   In case it shows error or build fails go for -
+   In case it shows error or build wheel fails, go for -
      ```pip install pipwin``` & 
      ```pipwin install pyaudio```
     
@@ -25,11 +25,11 @@ No need to type mails anymore. Send unlimited emails automatically using STMP Pr
 ### Application
 
 <div align='center'>
-<img src = 'examples/terminal_status_sent.jpg' height="170px">
+<img src = 'examples/terminal_status_sent.jpg' height="200px">
 </div>
 
 <div align='center'>
-<img src = 'examples/email_sent.JPG' height="170px">
+<img src = 'examples/email_sent.JPG' height="200px">
 </div>
 
 ### Steps of Code Execution

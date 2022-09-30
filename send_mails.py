@@ -74,5 +74,9 @@ def get_email_info():
     send_more = get_info()
     if 'yes' in send_more:
         get_email_info()
+    elif 'no' in send_more:
+        print("thanks for using our service")
+    else :
+        return
 
 get_email_info()

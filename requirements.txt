@@ -1,0 +1,5 @@
+SpeechRecognition
+PyAudio
+pipwin
+pyaudio
+pyttsx3
